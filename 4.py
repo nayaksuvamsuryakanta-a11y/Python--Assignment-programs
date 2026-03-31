@@ -1,11 +1,13 @@
-lst = [5, 2, 9, 1, 7]
-largest = smallest = lst[0]
+def get_int(prompt):
+    while True:
+        try:
+            return int(input(prompt))
+        except ValueError:
+            print("Invalid input. Enter a number.")
 
-for num in lst:
-    if num > largest:
-        largest = num
-    if num < smallest:
-        smallest = num
-
-print("Largest:", largest)
-print("Smallest:", smallest)
+def get_non_empty_string(prompt):
+    while True:
+        val = input(prompt).strip()
+        if val:
+            return val
+        print("Cannot be empty.")

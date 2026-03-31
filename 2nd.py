@@ -1,12 +1,22 @@
-lst = [1, 2, 3, 4, 5, 6]
-even = 0
-odd = 0
+import json
+import hashlib
+from datetime import datetime
 
-for num in lst:
-    if num % 2 == 0:
-        even += 1
-    else:
-        odd += 1
+class Student:
+    def __init__(self, roll_no, name, marks):
+        self.roll_no = roll_no
+        self.name = name
+        self.marks = marks
+        self.timestamp = datetime.now().isoformat()
 
-print("Even:", even)
-print("Odd:", odd)
+    def to_dict(self):
+        return self.__dict__
+
+class Admin:
+    def __init__(self, username, password):
+        self.username = username
+        # Simple hash for simulation
+        self.password_hash = hashlib.sha256(password.encode()).hexdigest()
+
+    def verify(self, password):
+        return self.password_hash == hashlib.sha256(password.encode()).hexdigest()
