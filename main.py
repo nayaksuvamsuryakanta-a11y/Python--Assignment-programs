@@ -55,7 +55,7 @@ def sort_records():
 
 def generate_reports():
     data = load_data()
-    if not
+    if not data:
         print("No data.")
         return
     avg = sum(s['marks'] for s in data) / len(data)
