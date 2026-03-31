@@ -1,0 +1,603 @@
+Index: Dict2.py
+===================================================================
+diff --git a/Dict2.py b/Dict2.py
+deleted file mode 100644
+--- a/Dict2.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,4 +0,0 @@
+-d = {"Aman": 85, "Riya": 90, "Karan": 75}
+-
+-for key, value in d.items():
+-    print("Key:", key, "Value:", value)
+\ No newline at end of file
+Index: tuple 13.py
+===================================================================
+diff --git a/tuple 13.py b/tuple 13.py
+deleted file mode 100644
+--- a/tuple 13.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,8 +0,0 @@
+-t = (10, 20, 30, 40, 50)
+-even_pos = ()
+-
+-for i in range(len(t)):
+-    if i % 2 == 0:
+-        even_pos += (t[i],)
+-
+-print(even_pos)
+\ No newline at end of file
+Index: tuple 15.py
+===================================================================
+diff --git a/tuple 15.py b/tuple 15.py
+deleted file mode 100644
+--- a/tuple 15.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,10 +0,0 @@
+-t1 = (1, 2, 3, 4)
+-t2 = (3, 4, 5)
+-
+-common = ()
+-
+-for num in t1:
+-    if num in t2 and num not in common:
+-        common += (num,)
+-
+-print(common)
+\ No newline at end of file
+Index: tuple 11.py
+===================================================================
+diff --git a/tuple 11.py b/tuple 11.py
+deleted file mode 100644
+--- a/tuple 11.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,3 +0,0 @@
+-t = (1, 2, 3)
+-t[0] = 10   # This will give error TypeError
+-print("Tuples are immutable")
+\ No newline at end of file
+Index: 11.py
+===================================================================
+diff --git a/11.py b/11.py
+deleted file mode 100644
+--- a/11.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,5 +0,0 @@
+-list1 = [1, 2, 3]
+-list2 = [4, 5, 6]
+-
+-merged = list1 + list2
+-print("Merged List:", merged)
+\ No newline at end of file
+Index: tuple9.py
+===================================================================
+diff --git a/tuple9.py b/tuple9.py
+deleted file mode 100644
+--- a/tuple9.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,10 +0,0 @@
+-t = (1, 2, 2, 3)
+-freq = {}
+-
+-for num in t:
+-    if num in freq:
+-        freq[num] += 1
+-    else:
+-        freq[num] = 1
+-
+-print(freq)
+\ No newline at end of file
+Index: dict6.py
+===================================================================
+diff --git a/dict6.py b/dict6.py
+deleted file mode 100644
+--- a/dict6.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,11 +0,0 @@
+-d = {"A": 10, "B": 20, "C": 30}
+-
+-keys_list = []
+-values_list = []
+-
+-for key, value in d.items():
+-    keys_list.append(key)
+-    values_list.append(value)
+-
+-print("Keys:", keys_list)
+-print("Values:", values_list)
+\ No newline at end of file
+Index: tuple6.py
+===================================================================
+diff --git a/tuple6.py b/tuple6.py
+deleted file mode 100644
+--- a/tuple6.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,11 +0,0 @@
+-t = (5, 2, 9, 1)
+-maxi = mini = t[0]
+-
+-for num in t:
+-    if num > maxi:
+-        maxi = num
+-    if num < mini:
+-        mini = num
+-
+-print("Max:", maxi)
+-print("Min:", mini)
+\ No newline at end of file
+Index: Dict 8.py
+===================================================================
+diff --git a/Dict 8.py b/Dict 8.py
+deleted file mode 100644
+--- a/Dict 8.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,11 +0,0 @@
+-d = {"A": 10, "B": 50, "C": 30}
+-
+-max_key = None
+-max_value = -999999
+-
+-for key in d:
+-    if d[key] > max_value:
+-        max_value = d[key]
+-        max_key = key
+-
+-print("Key with maximum value:", max_key)
+\ No newline at end of file
+Index: 13.py
+===================================================================
+diff --git a/13.py b/13.py
+deleted file mode 100644
+--- a/13.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,5 +0,0 @@
+-lst = [1, 2, 3, 4, 5]
+-k = 2
+-
+-rotated = lst[k:] + lst[:k]
+-print("Rotated List:", rotated)
+\ No newline at end of file
+Index: .idea/Python-programs.iml
+===================================================================
+diff --git a/.idea/Python-programs.iml b/.idea/Python-programs.iml
+deleted file mode 100644
+--- a/.idea/Python-programs.iml	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="PYTHON_MODULE" version="4">
+-  <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="jdk" jdkName="Python 3.15" jdkType="Python SDK" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: 10.py
+===================================================================
+diff --git a/10.py b/10.py
+deleted file mode 100644
+--- a/10.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,11 +0,0 @@
+-lst = [10, 20, 4, 45, 99]
+-largest = second = -999999
+-
+-for num in lst:
+-    if num > largest:
+-        second = largest
+-        largest = num
+-    elif num > second and num != largest:
+-        second = num
+-
+-print("Second Largest:", second)
+\ No newline at end of file
+Index: 9.py
+===================================================================
+diff --git a/9.py b/9.py
+deleted file mode 100644
+--- a/9.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,9 +0,0 @@
+-lst = [1, 2, 3, 4]
+-is_sorted = True
+-
+-for i in range(len(lst)-1):
+-    if lst[i] > lst[i+1]:
+-        is_sorted = False
+-        break
+-
+-print("Sorted:", is_sorted)
+\ No newline at end of file
+Index: dict3.py
+===================================================================
+diff --git a/dict3.py b/dict3.py
+deleted file mode 100644
+--- a/dict3.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,7 +0,0 @@
+-d = {"Aman": 85, "Riya": 90}
+-key = input("Enter key to check: ")
+-
+-if key in d:
+-    print("Key exists in dictionary")
+-else:
+-    print("Key does not exist")
+\ No newline at end of file
+Index: dict1.py
+===================================================================
+diff --git a/dict1.py b/dict1.py
+deleted file mode 100644
+--- a/dict1.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,14 +0,0 @@
+-n = int(input("Enter number of students: "))
+-students = {}
+-count = 0
+-
+-for i in range(n):
+-    name = input("Enter student name: ")
+-    marks = int(input("Enter marks: "))
+-    students[name] = marks
+-
+-for marks in students.values():
+-    if marks >= 40:
+-        count += 1
+-
+-print("Number of students with marks ≥ 40:", count)
+\ No newline at end of file
+Index: Dict5.py
+===================================================================
+diff --git a/Dict5.py b/Dict5.py
+deleted file mode 100644
+--- a/Dict5.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,10 +0,0 @@
+-d = {"A": 10, "B": 20, "C": 30}
+-key = input("Enter key to delete: ")
+-
+-if key in d:
+-    del d[key]
+-    print("Key deleted successfully")
+-else:
+-    print("Key not found")
+-
+-print("Updated dictionary:", d)
+\ No newline at end of file
+Index: main.py
+===================================================================
+diff --git a/main.py b/main.py
+deleted file mode 100644
+--- a/main.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,16 +0,0 @@
+-# This is a sample Python script.
+-
+-# Press Shift+F10 to execute it or replace it with your code.
+-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+-
+-
+-def print_hi(name):
+-    # Use a breakpoint in the code line below to debug your script.
+-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+-
+-
+-# Press the green button in the gutter to run the script.
+-if __name__ == '__main__':
+-    print_hi('PyCharm')
+-
+-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+Index: 7.py
+===================================================================
+diff --git a/7.py b/7.py
+deleted file mode 100644
+--- a/7.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,12 +0,0 @@
+-lst = [-1, 2, -3, 4, 5]
+-pos = []
+-neg = []
+-
+-for num in lst:
+-    if num >= 0:
+-        pos.append(num)
+-    else:
+-        neg.append(num)
+-
+-print("Positive:", pos)
+-print("Negative:", neg)
+\ No newline at end of file
+Index: dict 10.py
+===================================================================
+diff --git a/dict 10.py b/dict 10.py
+deleted file mode 100644
+--- a/dict 10.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,15 +0,0 @@
+-d = {"A": 30, "B": 10, "C": 20}
+-
+-# Convert dictionary to list of items
+-items = list(d.items())
+-
+-# Bubble sort based on values
+-for i in range(len(items)):
+-    for j in range(i + 1, len(items)):
+-        if items[i][1] > items[j][1]:
+-            items[i], items[j] = items[j], items[i]
+-
+-# Convert back to dictionary
+-sorted_dict = dict(items)
+-
+-print("Dictionary sorted by values:", sorted_dict)
+\ No newline at end of file
+Index: tuple1.py
+===================================================================
+diff --git a/tuple1.py b/tuple1.py
+deleted file mode 100644
+--- a/tuple1.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,4 +0,0 @@
+-t = (10, 20, 30, 40)
+-
+-for item in t:
+-    print(item)
+\ No newline at end of file
+Index: dict 7.py
+===================================================================
+diff --git a/dict 7.py b/dict 7.py
+deleted file mode 100644
+--- a/dict 7.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,7 +0,0 @@
+-n = int(input("Enter a number: "))
+-d = {}
+-
+-for i in range(1, n + 1):
+-    d[i] = i * i
+-
+-print("Dictionary of squares:", d)
+\ No newline at end of file
+Index: tuple 10.py
+===================================================================
+diff --git a/tuple 10.py b/tuple 10.py
+deleted file mode 100644
+--- a/tuple 10.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,8 +0,0 @@
+-t = (-1, 2, -3, 4)
+-new_t = ()
+-
+-for num in t:
+-    if num > 0:
+-        new_t += (num,)
+-
+-print(new_t)
+\ No newline at end of file
+Index: tuple5.py
+===================================================================
+diff --git a/tuple5.py b/tuple5.py
+deleted file mode 100644
+--- a/tuple5.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,11 +0,0 @@
+-t = (1, 2, 3, 4, 5)
+-even = odd = 0
+-
+-for num in t:
+-    if num % 2 == 0:
+-        even += 1
+-    else:
+-        odd += 1
+-
+-print("Even:", even)
+-print("Odd:", odd)
+\ No newline at end of file
+Index: tuple 14.py
+===================================================================
+diff --git a/tuple 14.py b/tuple 14.py
+deleted file mode 100644
+--- a/tuple 14.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,5 +0,0 @@
+-t1 = (1, 2, 3)
+-t2 = (1, 4, 3)
+-
+-for i in range(len(t1)):
+-    print(t1[i] == t2[i])
+\ No newline at end of file
+Index: 14.py
+===================================================================
+diff --git a/14.py b/14.py
+deleted file mode 100644
+--- a/14.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,10 +0,0 @@
+-lst = [1, 2, 2, 3, 3, 3]
+-freq = {}
+-
+-for num in lst:
+-    if num in freq:
+-        freq[num] += 1
+-    else:
+-        freq[num] = 1
+-
+-print(freq)
+\ No newline at end of file
+Index: dict 9.py
+===================================================================
+diff --git a/dict 9.py b/dict 9.py
+deleted file mode 100644
+--- a/dict 9.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,14 +0,0 @@
+-d1 = {"A": 10, "B": 20}
+-d2 = {"C": 30, "D": 40}
+-
+-merged = {}
+-
+-# Add elements of first dictionary
+-for key in d1:
+-    merged[key] = d1[key]
+-
+-# Add elements of second dictionary
+-for key in d2:
+-    merged[key] = d2[key]
+-
+-print("Merged Dictionary:", merged)
+\ No newline at end of file
+Index: tuple7.py
+===================================================================
+diff --git a/tuple7.py b/tuple7.py
+deleted file mode 100644
+--- a/tuple7.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,3 +0,0 @@
+-t = (1, 2, 3)
+-lst = list(t)
+-print(lst)
+\ No newline at end of file
+Index: 15.py
+===================================================================
+diff --git a/15.py b/15.py
+deleted file mode 100644
+--- a/15.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,13 +0,0 @@
+-lst = [10, 20, 30, 40, 50]
+-
+-even_index = []
+-odd_index = []
+-
+-for i in range(len(lst)):
+-    if i % 2 == 0:
+-        even_index.append(lst[i])
+-    else:
+-        odd_index.append(lst[i])
+-
+-print("Even index:", even_index)
+-print("Odd index:", odd_index)
+\ No newline at end of file
+Index: 12.py
+===================================================================
+diff --git a/12.py b/12.py
+deleted file mode 100644
+--- a/12.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,10 +0,0 @@
+-list1 = [1, 2, 3, 4]
+-list2 = [3, 4, 5, 6]
+-
+-common = []
+-
+-for num in list1:
+-    if num in list2 and num not in common:
+-        common.append(num)
+-
+-print("Common elements:", common)
+\ No newline at end of file
+Index: Tuple2.py
+===================================================================
+diff --git a/Tuple2.py b/Tuple2.py
+deleted file mode 100644
+--- a/Tuple2.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,7 +0,0 @@
+-t = (1, 2, 3, 4)
+-count = 0
+-
+-for _ in t:
+-    count += 1
+-
+-print("Total elements:", count)
+\ No newline at end of file
+Index: tuple 8.py
+===================================================================
+diff --git a/tuple 8.py b/tuple 8.py
+deleted file mode 100644
+--- a/tuple 8.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,7 +0,0 @@
+-t = (1, 2, 3, 4)
+-rev = ()
+-
+-for i in range(len(t)-1, -1, -1):
+-    rev += (t[i],)
+-
+-print("Reversed:", rev)
+\ No newline at end of file
+Index: tuple4.py
+===================================================================
+diff --git a/tuple4.py b/tuple4.py
+deleted file mode 100644
+--- a/tuple4.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,7 +0,0 @@
+-t = (1, 2, 3, 4)
+-x = int(input("Enter element: "))
+-
+-if x in t:
+-    print("Exists")
+-else:
+-    print("Not Exists")
+\ No newline at end of file
+Index: tuple 12.py
+===================================================================
+diff --git a/tuple 12.py b/tuple 12.py
+deleted file mode 100644
+--- a/tuple 12.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,6 +0,0 @@
+-t = (1, 2, 3, 2, 1)
+-
+-if t == t[::-1]:
+-    print("Palindrome")
+-else:
+-    print("Not Palindrome")
+\ No newline at end of file
+Index: tuple 3.py
+===================================================================
+diff --git a/tuple 3.py b/tuple 3.py
+deleted file mode 100644
+--- a/tuple 3.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,7 +0,0 @@
+-t = (10, 20, 30)
+-total = 0
+-
+-for num in t:
+-    total += num
+-
+-print("Sum:", total)
+\ No newline at end of file
+Index: dict4.py
+===================================================================
+diff --git a/dict4.py b/dict4.py
+deleted file mode 100644
+--- a/dict4.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,7 +0,0 @@
+-d = {"A": 10, "B": 20, "C": 30}
+-count = 0
+-
+-for key in d:
+-    count += 1
+-
+-print("Total key-value pairs:", count)
+\ No newline at end of file
+Index: 8.py
+===================================================================
+diff --git a/8.py b/8.py
+deleted file mode 100644
+--- a/8.py	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
++++ /dev/null	(revision c0f641617f80022bff053e4de02ad5bc2b34bdbf)
+@@ -1,8 +0,0 @@
+-lst = [1, 2, 2, 3, 4, 4]
+-unique = []
+-
+-for num in lst:
+-    if num not in unique:
+-        unique.append(num)
+-
+-print("Without duplicates:", unique)
+\ No newline at end of file
+diff --git a/new.py b/new.py
+deleted file mode 100644

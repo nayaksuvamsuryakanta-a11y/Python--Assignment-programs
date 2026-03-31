@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb72a1b8-3362-4f68-9519-27b51a16f291" name="Changes" comment="AA">
+      <change beforePath="$PROJECT_DIR$/.idea/Python-programs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/15.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1st.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2nd.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dict 8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dict2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dict5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tuple2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dict 10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dict 7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dict 9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dict1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dict3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dict4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dict6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuple 10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuple 11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuple 12.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuple 13.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuple 14.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuple 15.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuple 3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuple 8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuple1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuple4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuple5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuple6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuple7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuple9.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "nayaksuvamsuryakanta-a11y"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nayaksuvamsuryakanta-a11y/Python-programs.git",
+    "accountId": "b9b2c22e-9997-4a4a-b20c-a48f4da60acd"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="3BhEpuu5VgAn3nvmwBiwLEf3CjW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "PYTHON-APP",
+    "last_opened_file_path": "C:/Users/DELL/OneDrive/Desktop/Project  Student Management System (SMS)"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-4762d8aabb82-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.30387.173" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb72a1b8-3362-4f68-9519-27b51a16f291" name="Changes" comment="" />
+      <created>1774933088294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774933088294</updated>
+    </task>
+    <task id="LOCAL-00001" summary="AA">
+      <option name="closed" value="true" />
+      <created>1774933587726</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774933587726</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="AA" />
+    <option name="LAST_COMMIT_MESSAGE" value="AA" />
+  </component>
+</project>
